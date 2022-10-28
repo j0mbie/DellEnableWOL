@@ -1,22 +1,22 @@
 <#
 	.SYNOPSIS
-		Wake-On-LAN
+		Dell-Wake-On-LAN
 	
 	.DESCRIPTION
-		A description of the file.
+		Enables Wake-On-LAN on Dell computers. Based off work by Mick Pletcher.
 	
 	.PARAMETER ConsoleTitle
-		Title for PowerShell console
+		Title for PowerShell console.
 	
 	.PARAMETER BIOSPassword
-		A description of the BIOSPassword parameter.
+		The BIOS password, if one is configured.
 	
 	.NOTES
 		===========================================================================
-		Created with: 	SAPIEN Technologies, Inc., PowerShell Studio 2022 v5.8.209
-		Created on:   	8/1/2022 8:16 AM
-		Created by:   	Mick Pletcher
-		Filename:		WOL.ps1
+		Created with: 	Notepad++
+		Created on:   	2022-10-28
+		Created by:   	Joshua Drost
+		Filename:		Enable-DellWakeOnLAN.ps1
 		===========================================================================
 #>
 param
@@ -29,10 +29,10 @@ param
 function Set-BIOS {
 <#
 	.SYNOPSIS
-		Configure WOL in BIOS
+		Enables Wake-On-LAN on Dell computers.
 	
 	.DESCRIPTION
-		Configure WOL in BIOS
+		Enables Wake-On-LAN on Dell computers.
 	
 #>
 	
